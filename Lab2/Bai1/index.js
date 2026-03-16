@@ -1,5 +1,5 @@
 
-const DatabaseConnection_Singleton = require("../Bai2/DatabaseConnection_Singleton");
+const DatabaseConnection_Singleton = require("../Lab2/DatabaseConnection_Singleton");
 const ServiceFactory = require("./ServiceFactory");
 
 // Singleton
