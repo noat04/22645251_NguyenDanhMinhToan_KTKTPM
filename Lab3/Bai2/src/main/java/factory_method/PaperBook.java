@@ -1,3 +1,5 @@
+package factory_method;
+
 class PaperBook implements Book {
     private String title, author, category;
     public PaperBook(String title, String author, String category) { this.title = title; this.author = author; this.category = category; }

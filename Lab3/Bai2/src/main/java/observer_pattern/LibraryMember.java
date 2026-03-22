@@ -1,3 +1,5 @@
+package observer_pattern;
+
 public class LibraryMember implements UserObserver {
     private String name;
     public LibraryMember(String name) { this.name = name; }

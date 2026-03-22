@@ -1,3 +1,5 @@
+package decorator_pattern;
+
 abstract class BorrowDecorator implements BorrowService {
     protected BorrowService wrappedBorrow;
     public BorrowDecorator(BorrowService wrappedBorrow) { this.wrappedBorrow = wrappedBorrow; }

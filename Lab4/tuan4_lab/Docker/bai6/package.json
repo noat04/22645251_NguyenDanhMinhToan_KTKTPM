@@ -1,0 +1,12 @@
+{
+  "name": "multi-stage-app",
+  "version": "1.0.0",
+  "description": "NodeJS App with Multi-stage Build",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

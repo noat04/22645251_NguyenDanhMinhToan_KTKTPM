@@ -1,3 +1,5 @@
+package decorator_pattern;
+
 public class ExtendResourceDecorator extends BorrowDecorator {
     public ExtendResourceDecorator(BorrowService wrappedBorrow) { super(wrappedBorrow); }
     public String getDescription() {

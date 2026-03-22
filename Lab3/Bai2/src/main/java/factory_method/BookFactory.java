@@ -1,3 +1,5 @@
+package factory_method;
+
 public class BookFactory {
     // Nhà máy sản xuất sách theo yêu cầu
     public static Book createBook(String type, String title, String author, String category) {

@@ -1,8 +1,4 @@
-package org.fit.bai1;
-
-import org.fit.bai1.composite_design_pattern.FileSystemNode;
-
-import java.io.File;
+package org.fit.bai1.composite_design_pattern;
 
 public class Main {
     public static void main(String[] args) {

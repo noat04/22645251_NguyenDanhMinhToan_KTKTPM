@@ -1,3 +1,5 @@
+package singleton_pattern;
+
 import factory_method.Book;
 import observer_pattern.UserObserver;
 import strategy_pattern.SearchStrategy;
@@ -9,7 +11,7 @@ import java.util.List;
 // 5. SINGLETON PATTERN: Lớp quản lý Thư Viện
 // (Kết hợp làm Subject cho Observer)
 // ==========================================
-class Library {
+public class Library {
     // 5.1 Singleton: Biến static lưu trữ instance duy nhất
     private static Library instance;
 
